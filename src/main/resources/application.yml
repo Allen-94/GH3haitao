@@ -1,0 +1,12 @@
+server:
+ port: 8288
+spring:
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://39.108.113.193:3306/gh3haitao
+  username: GH3haitao
+  password: Admin@123
+ jpa:
+  hibernate: 
+   ddl-auto: update
+  show-sql: true
